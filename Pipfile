@@ -1,0 +1,21 @@
+[[source]]
+name = "aliyun"
+url = "https://mirrors.aliyun.com/pypi/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+tornado = "==5.1.1"
+bson = "==0.5.8"
+enum34 = "==1.1.6"
+motorengine = "==1.0.0"
+pycrypto = "==2.6.1"
+PyJWT = "==1.7.1"
+redis = "==3.2.1"
+ujson = "*"
+crontab = "*"
+setproctitle = "*"
+
+[requires]
+python_version = "3.6"
